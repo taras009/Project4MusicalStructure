@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Project 4 Musical Structure</string>
+    <string name="pop">Pop</string>
+    <string name="rock">Rock</string>
+    <string name="r_amp_b"><![CDATA[R&B]]></string>
+    <string name="house">House</string>
+    <string name="hip_hop">Hip-Hop</string>
+    <string name="rap">Rap</string>
+    <string name="trap">Trap</string>
+    <string name="electronic">Electronic</string>
+    <string name="classical">Classical</string>
+    <string name="folk">Folk</string>
+    <string name="alternative">Alternative</string>
+    <string name="funk">Funk</string>
+    <string name="reggae">Reggae</string>
+    <string name="new_wave">New Wave</string>
+
+
+</resources>

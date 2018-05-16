@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lnr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.comp_admin.project4musicalstructure.MainActivity">
+
+    <LinearLayout style="@style/linear">
+
+        <TextView
+            android:id="@+id/pop"
+            style="@style/genre"
+            android:layout_weight="2"
+            android:background="@drawable/pop_background"
+            android:text="@string/pop"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"/>
+
+
+        <TextView
+            android:id="@+id/rock"
+            style="@style/genre"
+            android:layout_weight="5"
+            android:background="@drawable/rock_background"
+            android:text="@string/rock" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear">
+
+        <TextView
+            android:id="@+id/folk"
+            style="@style/genre"
+            android:layout_weight="5"
+            android:background="@drawable/folk_background"
+            android:text="@string/folk" />
+
+
+        <TextView
+            android:id="@+id/classical"
+            style="@style/genre"
+            android:layout_weight="5"
+            android:background="@drawable/classic_background"
+            android:text="@string/classical" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear">
+
+        <TextView
+            android:id="@+id/electonic"
+            style="@style/genre"
+            android:layout_weight="5"
+            android:background="@drawable/electronic_background"
+            android:text="@string/electronic"
+            />
+
+
+        <TextView
+            android:id="@+id/trap"
+            style="@style/genre"
+            android:layout_weight="2"
+            android:background="@drawable/trap_background"
+            android:text="@string/trap" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear">
+
+        <TextView
+            android:id="@+id/rap"
+            style="@style/genre"
+            android:layout_weight="3"
+            android:background="@drawable/rap_background"
+            android:text="@string/rap" />
+
+
+        <TextView
+            android:id="@+id/hip_hop"
+            style="@style/genre"
+            android:layout_weight="4"
+            android:background="@drawable/hip_hop_background"
+            android:text="@string/hip_hop" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear">
+
+        <TextView
+            android:id="@+id/reggae"
+            style="@style/genre"
+            android:layout_weight="5"
+            android:background="@drawable/reggae_background"
+            android:text="@string/reggae" />
+
+
+        <TextView
+            android:id="@+id/randb"
+            style="@style/genre"
+            android:layout_weight="4"
+            android:background="@drawable/randb_background"
+            android:text="@string/r_amp_b" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear">
+
+        <TextView
+            android:id="@+id/funk"
+            style="@style/genre"
+            android:layout_weight="3"
+            android:background="@drawable/funk_background"
+            android:text="@string/funk" />
+
+
+        <TextView
+            android:id="@+id/alternative"
+            style="@style/genre"
+            android:layout_weight="8"
+            android:background="@drawable/alternative_background"
+            android:text="@string/alternative" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear">
+
+        <TextView
+            android:id="@+id/house"
+            style="@style/genre"
+            android:layout_weight="1"
+            android:background="@drawable/house_background"
+            android:text="@string/house" />
+
+
+        <TextView
+            android:id="@+id/new_wave"
+            style="@style/genre"
+            android:layout_weight="1"
+            android:background="@drawable/newave_background"
+            android:text="@string/new_wave" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
