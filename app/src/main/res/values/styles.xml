@@ -23,6 +23,7 @@
         <item name="android:textSize">40sp</item>
         <item name="android:gravity">center</item>
         <item name="android:fontFamily" tools:ignore="NewApi">Calibri</item>
+        <item name="android:onClick">showMessage</item>
     </style>
 
  </resources>

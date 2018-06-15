@@ -7,11 +7,10 @@ package com.example.comp_admin.project4musicalstructure;
 public class Song {
     /***name of the artist ***/
     private String mArtistName;
-
     /***name of the composition***/
     private String mSongName;
 
-    public Song(String artistName, String songNamen){
+    public Song(String artistName, String songNamen) {
         mArtistName = artistName;
         mSongName = songNamen;
     }
