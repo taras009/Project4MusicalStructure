@@ -23,7 +23,7 @@ public class Rock extends AppCompatActivity {
         songs.add(new Song("Panic! At The Disco", "Say Amen"));
         songs.add(new Song("John Mayer", "New Light"));
         songs.add(new Song("lovelytheband", "Broken"));
-        SongAdapter adapter = new SongAdapter(this, songs, R.drawable.rock_background);
+        SongAdapter adapter = new SongAdapter(this, songs,R.drawable.rock_background);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
     }

@@ -1,5 +1,6 @@
 package com.example.comp_admin.project4musicalstructure;
 
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -29,13 +30,16 @@ public class Pop extends AppCompatActivity {
         songs.add(new Song("Imagine Dragons", "Whatever It Takes"));
         songs.add(new Song("Shawn Mendes", "In My Blood"));
         songs.add(new Song("Taylor Swift", "Delicate"));
-        SongAdapter adapter = new SongAdapter(this, songs, R.drawable.pop_background);
-        ListView listView = (ListView) findViewById(R.id.list);
+        SongAdapter adapter = new SongAdapter(this, songs, R.drawable.electronic_background);
+        final ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Toast.makeText(Pop.this, "Music playing...", Toast.LENGTH_SHORT).show();
+
+
+
             }
         });
     }

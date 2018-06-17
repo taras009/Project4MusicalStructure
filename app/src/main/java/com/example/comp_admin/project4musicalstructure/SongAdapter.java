@@ -1,6 +1,7 @@
 package com.example.comp_admin.project4musicalstructure;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -19,12 +20,12 @@ import java.util.List;
  */
 
 public class SongAdapter extends ArrayAdapter<Song> {
-    private int mColorResourceId;
-    private GradientDrawable drawable;
 
-    public SongAdapter(@NonNull Context context, @NonNull List<Song> objects, int colorResourceId) {
+    private int mResourceId;
+
+    public SongAdapter(@NonNull Context context, @NonNull List<Song> objects, int resourceId) {
         super(context, 0, objects);
-        mColorResourceId = colorResourceId;
+       mResourceId = resourceId;
     }
 
     @Override
@@ -42,8 +43,9 @@ public class SongAdapter extends ArrayAdapter<Song> {
 
         /// ***set different colors for different activities
         View textContainer = listItemView.findViewById(R.id.text_container); // TO BE FIXED
-        int color = ContextCompat.getColor(getContext(), mColorResourceId);
-        textContainer.setBackgroundColor(color);
+        Drawable color = ContextCompat.getDrawable(getContext(), mResourceId );
+        textContainer.setBackground(color);
+
         return listItemView;
     }
 }
